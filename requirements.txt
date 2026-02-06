@@ -1,0 +1,15 @@
+pandas: Used to load your heart.csv and perform the df['target'].value_counts() check to see the balance between sick and healthy patients.
+
+numpy: Provides the numerical support for the math behind the Sigmoid function used in Logistic Regression.
+
+matplotlib: Creates the base layer for your Confusion Matrix visualization.
+
+seaborn: This is what made your Confusion Matrix look professional with the sns.heatmap function and the blue color grading.
+
+scikit-learn: The "workhorse" for Project 2. It provided:
+
+StandardScaler for scaling your data.
+
+LogisticRegression for the AI model.
+
+confusion_matrix and classification_report for final medical evaluation.
